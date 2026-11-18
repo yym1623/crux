@@ -1,0 +1,59 @@
+node_modules/
+
+# pnpm
+.pnpm-store/
+pnpm-debug.log*
+
+# Expo (apps/mobile)
+.expo/
+web-build/
+expo-env.d.ts
+.metro-health-check*
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+ios/
+android/
+
+# Nest build (apps/server)
+dist/
+build/
+*.tsbuildinfo
+
+# Vitest (apps/server)
+coverage/
+
+# logs
+logs/
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# local env
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# certificates
+*.pem
+
+# editors — shared VS Code files stay tracked
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json

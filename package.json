@@ -1,0 +1,22 @@
+{
+  "name": "crux-app",
+  "private": true,
+  "scripts": {
+    "dev:mobile": "pnpm --filter mobile dev",
+    "dev:server": "pnpm --filter server dev",
+    "build:mobile": "pnpm --filter mobile build",
+    "build:server": "pnpm --filter server build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.21.0",
+      "onFail": "download"
+    }
+  },
+  "packageManager": "pnpm@12.21.0",
+  "type": "module"
+}
